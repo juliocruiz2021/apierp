@@ -103,6 +103,8 @@ Construir una base profesional de ERP API v1 dentro de este repositorio con Lara
 
 - Se probó la conexión a PostgreSQL con usuario `postgres` y clave `lvhpct43` contra `127.0.0.1:5432`.
 - El servidor respondió `FATAL: la autentificación password falló para el usuario "postgres"`.
+- Se volvió a probar con usuario `postgres` y clave `postgres` contra `127.0.0.1:5432`.
+- El servidor volvió a responder `FATAL: la autentificación password falló para el usuario "postgres"`.
 - Se detectó una cuenta GitHub autenticada en este equipo: `juliocruiz2021`.
 - Se creó el repositorio remoto `https://github.com/juliocruiz2021/apierp.git`.
 - El proyecto local quedó enlazado al remoto `origin`.
