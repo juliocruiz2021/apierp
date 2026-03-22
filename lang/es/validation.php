@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'accepted' => 'El campo :attribute debe ser aceptado.',
+    'array' => 'El campo :attribute debe ser un arreglo.',
+    'date' => 'El campo :attribute debe ser una fecha v\u00e1lida.',
+    'distinct' => 'El campo :attribute contiene un valor duplicado.',
+    'email' => 'El campo :attribute debe ser un correo electr\u00f3nico v\u00e1lido.',
+    'exists' => 'El :attribute seleccionado no es v\u00e1lido.',
+    'gt' => [
+        'numeric' => 'El campo :attribute debe ser mayor que :value.',
+    ],
+    'in' => 'El campo :attribute seleccionado no es v\u00e1lido.',
+    'integer' => 'El campo :attribute debe ser un n\u00famero entero.',
+    'max' => [
+        'numeric' => 'El campo :attribute no debe ser mayor que :max.',
+        'string' => 'El campo :attribute no debe ser mayor que :max caracteres.',
+    ],
+    'min' => [
+        'array' => 'El campo :attribute debe tener al menos :min elementos.',
+        'numeric' => 'El campo :attribute debe ser al menos :min.',
+        'string' => 'El campo :attribute debe tener al menos :min caracteres.',
+    ],
+    'numeric' => 'El campo :attribute debe ser num\u00e9rico.',
+    'required' => 'El campo :attribute es obligatorio.',
+    'string' => 'El campo :attribute debe ser una cadena de texto.',
+    'unique' => 'El campo :attribute ya est\u00e1 en uso.',
+    'attributes' => [
+        'name' => 'nombre',
+        'email' => 'correo electr\u00f3nico',
+        'password' => 'contrase\u00f1a',
+        'estado' => 'estado',
+        'nombre' => 'nombre',
+        'codigo' => 'c\u00f3digo',
+        'precio' => 'precio',
+        'stock' => 'stock',
+        'stock_minimo' => 'stock m\u00ednimo',
+        'cliente_id' => 'cliente',
+        'producto_id' => 'producto',
+        'cantidad' => 'cantidad',
+        'precio_unitario' => 'precio unitario',
+        'detalle' => 'detalle',
+        'clave' => 'clave',
+    ],
+];
